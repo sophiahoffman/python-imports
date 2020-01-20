@@ -1,4 +1,4 @@
-from appliances import Dishwasher, Washer, Dryer, Refrigerator, CoffeeMaker
+from appliances import Dishwasher, Washer, Dryer, Refrigerator, CoffeeMaker, CanOpener
 
 
 whirlpool_dishwasher = Dishwasher("black")
@@ -12,6 +12,11 @@ lg_fridge.make_ice()
 
 mr_coffee = CoffeeMaker("white")
 mr_coffee.make_coffee()
+
+new_can_opener = CanOpener("blue")
+new_can_opener.open_can()
+
+
 
 
 # how did I fix?
